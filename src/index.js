@@ -4,7 +4,6 @@ import { Provider } from 'react-redux';
 import App from './App';
 import setStore from './store/setStore';
 import { addExpense } from './actions/expenses';
-import { setTextFilter } from './actions/filters';
 import getVisibleExpenses from './selectors/expenses';
 import './index.css';
 import registerServiceWorker from './registerServiceWorker';
